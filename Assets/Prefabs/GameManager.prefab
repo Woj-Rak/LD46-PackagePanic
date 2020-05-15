@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6088796630565707813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6088796630565707815}
+  - component: {fileID: 6088796630565707812}
+  m_Layer: 8
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6088796630565707815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6088796630565707813}
+  m_LocalRotation: {x: 0.30217856, y: 0, z: 0, w: 0.95325136}
+  m_LocalPosition: {x: 58.32, y: 7.14, z: -69.17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 35.177002, y: 0, z: 0}
+--- !u!114 &6088796630565707812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6088796630565707813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f426253652574ea499a113dba45b7ae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentGameState: 0
+  playerMoney: 0
+  playerObject: {fileID: 0}
+  truckObject: {fileID: 0}
+  truckScript: {fileID: 0}
+  dropPoints:
+  - {fileID: 0}
+  questItems:
+  - {fileID: 8089607002464390980, guid: 82950f63b6a0474489970dc0076807e7, type: 3}
+  - {fileID: 6556687085136418873, guid: e9328f1c096973e43b89c711eeead4b7, type: 3}
+  - {fileID: 4726345056030530557, guid: 7fee80c97e9f4df4b84570d6bdd3c933, type: 3}
+  ObstacleList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  uiManager: {fileID: 0}
+  maxDays: 5
+  baseQuestsPerDay: 3
+  baseTimePerDay: 180
+  finishedQuests: 0
+  dayActive: 0
+  questActive: 0
